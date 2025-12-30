@@ -1,0 +1,24 @@
+{
+  "name": "bot-pilule",
+  "version": "1.0.0",
+  "description": "Bot Telegram pour rappeler la prise de la pilule contraceptive",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "reminder"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^16.4.1",
+    "grammy": "^1.21.1",
+    "node-cron": "^3.0.3"
+  }
+}
